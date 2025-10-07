@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 75rem;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.dashboard_container{
+    /* display: grid; */
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    /* grid-template-columns:1fr; */
+}
+
+/* top container */
+
+.top_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.top_box{
+    /* min-width: 12rem; */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.8rem;
+    /* border: 0.1rem solid #2563ed; */
+    /* margin: 0 0.6rem; */
+}
+.top_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.top_icon_one{
+    background-color: rgb(240, 217, 199);
+}
+.top_icon_two{
+    background-color: rgb(210, 240, 204);
+}
+.top_icon_three{
+    background-color: rgb(202, 223, 235);
+}
+.top_icon_four{
+    background-color: rgb(230, 209, 235);
+}
+.top_data{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    padding: 0.9rem;
+}
+.top_menu_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    padding: 0.6rem;
+    cursor: pointer;
+}
+/* middle container */
+
+.middle_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+.middle_left{
+    min-width: 20rem;
+    background-color: aqua;
+    /* padding: 1rem; */
+}
+.middle_right{
+     min-width: 12rem;
+     background-color: rgb(255, 255, 255);
+     padding: 0.7rem 0;
+}
+.middle_right_heading{
+    border-bottom: 0.1rem solid black;
+    padding: 0.7rem;
+}
+.middle_right_chart{
+     padding: 0.7em;
+}
+.middle_right_bottom{
+    display: flex;
+    justify-content:left;
+    align-items: start;
+    /* background-color: aqua; */
+    padding: 0.7em;
+    gap: 1rem;
+}
