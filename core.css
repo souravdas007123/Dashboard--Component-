@@ -22,8 +22,8 @@ body{
 }
 .box{
     background-color: aqua;
-    /* min-width: 200px;
-    min-height: 200px; */
+    min-width: 200px;
+    min-height: 200px;
 }
 .box_5{
     grid-column: 1/4;
