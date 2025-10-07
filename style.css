@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(195, 194, 193);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,12 +71,12 @@ body{
     padding: 0.9rem;
 }
 .top_menu_icon{
+    min-height: 4rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: start;
     /* background-color: aquamarine; */
-    padding: 0.6rem;
+    /* padding: 0.6rem; */
     cursor: pointer;
 }
 /* middle container */
@@ -96,10 +96,16 @@ body{
      min-width: 11rem;
      background-color: rgb(255, 255, 255);
      padding: 0.7rem 0;
+     border-radius: 0.5rem;
 }
 .middle_right_heading{
     border-bottom: 0.1rem solid black;
     padding: 0.7rem;
+}
+.middle_right_middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .middle_right_chart{
      padding: 0.7em;
@@ -120,4 +126,17 @@ body{
 }
 .middle_left_top_left{
     padding: 0.7rem;
+}
+.middle_left_middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pie_chart{
+    width: 6rem;
+    height: 6rem;
+}
+.bar_png{
+    width: 15rem;
+    height: 7rem;
 }

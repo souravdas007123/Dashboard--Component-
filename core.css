@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(236, 235, 234);
+}
+.container{
+    width: 100%;
+}
+.row{
+    min-width: 1200px;
+    margin: auto;
+    background-color: rgb(115, 168, 168);
+}
+.dashboard_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.box{
+    background-color: aqua;
+    /* min-width: 200px;
+    min-height: 200px; */
+}
+.box_5{
+    grid-column: 1/4;
+}
+.box_7{
+    grid-column: 1/3;
+}
