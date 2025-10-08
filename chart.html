@@ -1,26 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="core.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="core.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="row">
-            <div class="dashboard_container">
-                <div class="box box_1">box1</div>
-                <div class="box box_2">box2</div>
-                <div class="box box_3">box2</div>
-                <div class="box box_4">box2</div>
-                <div class="box box_5">box2</div>
-                <div class="box box_6">box2</div>
-                <div class="box box_7">box2</div>
-                <div class="box box_8">box2</div>
-                <div class="box box_9">box2</div>
+      <div class="row">
+        <div class="dashboard_container">
+
+          <!--top container -->
+
+          <div class="box box_1">
+            <div class="top_box box_one">
+              <div class="top_icon top_icon_one">
+                <ion-icon name="hardware-chip-outline" class="hardware_icon"></ion-icon>
+              </div>
+              <div class="top_data">
+                <div class="top_heading"><h4>55</h4></div>
+                <div class="top_sub_heading"><p>Hardware</p></div>
+              </div>
+              <div class="top_menu_icon">
+                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+              </div>
             </div>
+          </div>
+          <div class="box box_2">
+            <div class="top_box box_two">
+              <div class="top_icon top_icon_two">
+                <ion-icon name="laptop-outline" class="software_icon"></ion-icon>
+              </div>
+              <div class="top_data">
+                <div class="top_heading"><h4>61</h4></div>
+                <div class="top_sub_heading"><p>Software</p></div>
+              </div>
+              <div class="top_menu_icon">
+                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+          <div class="box box_3">
+            <div class="top_box box_three">
+              <div class="top_icon top_icon_three">
+                <ion-icon name="copy-outline" class="licenses_icon"></ion-icon>
+              </div>
+              <div class="top_data">
+                <div class="top_heading"><h4>15</h4></div>
+                <div class="top_sub_heading"><p>Licenses</p></div>
+              </div>
+              <div class="top_menu_icon">
+                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+          <div class="box box_4">
+            <div class="top_box box_four">
+              <div class="top_icon top_icon_four">
+                <ion-icon name="people-outline" class="user_icon"></ion-icon>
+              </div>
+              <div class="top_data">
+                <div class="top_heading"><h4>6</h4></div>
+                <div class="top_sub_heading"><p>User</p></div>
+              </div>
+              <div class="top_menu_icon">
+                <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+              </div>
+            </div>
+          </div>
+
+          <!-- middle left container -->
+
+          <div class="box box_5">
+            <div class="middle_left">
+              <div class="middle_left_top">
+                <div class="middle_left_top_left">
+                  <p>Active vs Exprie</p>
+                </div>
+                <div class="middle_left_top_right">
+                  <p>Show by Month</p>
+                </div>
+              </div>
+              <div class="middle_left_middle">
+                <div class="middle_left_middle_left">
+                  <img src="images/bar.png" alt="" class="bar_png" />
+                </div>
+                <div class="middle_left_middle_right">
+                    <img src="images/Pie.png" alt="" class="pie_chart" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- middle right container -->
+
+          <div class="box box_6">
+            <div class="middle_right">
+              <div class="middle_right_top">
+                <div class="middle_right_heading">
+                  <p>Status</p>
+                </div>
+              </div>
+              <div class="middle_right_middle">
+                <div class="middle_right_chart">
+                  <!-- <ion-icon name="pie-chart-outline"></ion-icon> -->
+                  <img src="images/inner_pie.png" alt="" class="pie_chart" />
+                   <!-- <div class="pie_chart"></div> -->
+                </div>
+              </div>
+              <div class="middle_right_bottom">
+                <div class="middle_right_btn_one">
+                  <h5>Active</h5>
+                </div>
+                <div class="middle_right_btn_two">
+                  <h5>Expire</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- bottom left container -->
+
+          <div class="box box_7">
+            <div class="bottom_left_container"></div>
+          </div>
+
+          <!-- bottom middle container -->
+
+          <div class="box box_8">
+            <div class="bottom_middle_container"></div>
+          </div>
+
+          <!-- bottom right container -->
+
+          <div class="box box_9">
+            <div class="bottom_right_container">
+              <div class="bottom_right_top_heading">
+                <h4>3240</h4>
+                <p>monthly data</p>
+              </div>
+              <div class="bottom_right_middle_chart">
+                <!-- <div class="pie_chart"></div> -->
+                <img src="images/line.png" alt="" class="pie_chart" />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-</body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
