@@ -84,7 +84,9 @@
               </div>
               <div class="middle_left_middle">
                 <div class="middle_left_middle_left">
-                  <img src="images/bar.png" alt="" class="bar_png" />
+                  <div>
+                <canvas id="mychartradar"></canvas>
+              </div>
                 </div>
                 <div class="middle_left_middle_right">
                     <img src="images/pie.png" alt="" class="pie_chart" />
@@ -105,8 +107,11 @@
               <div class="middle_right_middle">
                 <div class="middle_right_chart">
                   <!-- <ion-icon name="pie-chart-outline"></ion-icon> -->
-                  <img src="images/inner_pie.png" alt="" class="pie_chart" />
+                  <!-- <img src="images/inner_pie.png" alt="" class="pie_chart" /> -->
                    <!-- <div class="pie_chart"></div> -->
+                    <div>
+                       <canvas id="donutChart"></canvas>
+                    </div>
                 </div>
               </div>
               <div class="middle_right_bottom">
@@ -123,7 +128,19 @@
           <!-- bottom left container -->
 
           <div class="box box_7">
-            <div class="bottom_left_container"></div>
+            <div class="bottom_left_container">
+              <div class="bottom_left_top">
+                <div class="bottom_left_top_left">
+                  <p>Active vs Exprie</p>
+                </div>
+                <div class="bottom_left_top_right">
+                  <p>Show by Month</p>
+                </div>
+              </div>
+              <div>
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
           </div>
 
           <!-- bottom middle container -->
@@ -141,8 +158,11 @@
                 <p>monthly data</p>
               </div>
               <div class="bottom_right_middle_chart">
-                <!-- <div class="pie_chart"></div> -->
-                <img src="images/line.png" alt="" class="pie_chart" />
+
+                <!-- <img src="images/line.png" alt="" class="pie_chart" /> -->
+              <div>
+                <canvas id="mychartradar"></canvas>
+              </div>
               </div>
             </div>
           </div>
@@ -157,5 +177,11 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/barcjart.js"></script>
+    <!-- <script src="js/donut.js"></script> -->
+  
   </body>
 </html>
