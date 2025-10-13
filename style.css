@@ -139,18 +139,15 @@ body{
 
 /* pie and bar chart */
 
- .pie_chart{
-        width: 6rem;
-        height: 6rem;
+ .pie_chart,.bar_chart,.radar_chart,.line_chart,.doughnut_chart{
+        width: 100%;
+        height: 100%;
+        /* width: 15rem;
+        height: 15rem; */
         /* background: conic-gradient(rgb(255, 0, 0) 70deg,rgb(0, 255, 0) 70deg 160deg,rgb(0, 68, 255) 160deg 210deg,rgb(255, 136, 0) 210deg 340deg);
         border-radius: 50%;
         gap: 0.1rem; */
        }
-
-.bar_png{
-    width: 20rem;
-    height: 7rem;
-}
 
 /* middle left container */
 
@@ -178,6 +175,10 @@ body{
     align-items: center;
     /* background-color: antiquewhite; */
     padding: 0.7rem 0;
+}
+.middle_left_middle_right{
+    max-width: 250px;
+    max-height: 250px;
 }
 /* bottom right container */
 

@@ -1,11 +1,11 @@
-const cty = document.getElementById('donutChart');
+const pie = document.getElementById('pieChart');
 
-  new Chart(cty, {
-    type: 'doughnut',
+  new Chart(pie, {
+    type: 'pie',
     data: {
-      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    //   labels: ['Hardware', 'Software', 'Licenses', 'User', 'Active', 'Expire'],
       datasets: [{
-        label: 'Asset Bar Chart',
+        label: 'Asset Line Chart',
         data: [12, 19, 3, 5, 2, 3],
         borderWidth: 1
       }]

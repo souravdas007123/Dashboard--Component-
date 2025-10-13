@@ -1,11 +1,11 @@
-const ctx = document.getElementById('myChart');
+const bar = document.getElementById('barchart');
 
-  new Chart(ctx, {
-    type: 'line',
+  new Chart(bar, {
+    type: 'bar',
     data: {
-      labels: ['Hardware', 'Software', 'Licenses', 'User', 'Active', 'Expire'],
+      labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
       datasets: [{
-        label: 'Asset Line Chart',
+        label: 'Asset Bar Chart',
         data: [12, 19, 3, 5, 2, 3],
         borderWidth: 1
       }]
