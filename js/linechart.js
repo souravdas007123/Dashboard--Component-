@@ -1,4 +1,4 @@
-const line = document.getElementById('linechart');
+const line = document.getElementById('lineChart');
 
   new Chart(line, {
     type: 'line',
