@@ -267,6 +267,13 @@ body{
     padding: 20px;
     /* background-color: blue; */
 }
+.top_box{
+    justify-content: space-evenly;
+}
+.middle_left_middle{
+    display: flex;
+    flex-direction: column;
+}
   .box_5{
     grid-column: 1/1;
 }
@@ -277,4 +284,12 @@ body{
     width: 12rem;
 
 }
+/* .pie_chart,.bar_chart,.radar_chart,.line_chart,.doughnut_chart{
+        width: 100%;
+        height: 100%;
+       }
+.doughnut_chart,.radar_chart,.pie_chart{
+    min-width: 150px;
+    min-height: 150px;
+} */
 }
